@@ -1,16 +1,11 @@
 <template>
-    <h1>App Clima</h1>
-    <slot name="Subtitulo"></slot>
-    <slot name="xxtra"></slot>
-    
+  <h1>App Clima</h1>
+  <slot name="Subtitulo"></slot>
+  <slot name="Extra"></slot>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>
