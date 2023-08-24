@@ -23,4 +23,36 @@ export default {
   methods: {},
   computed: {},
 };
+data() {
+        return {
+            cidades: {
+                {
+                    id: 8429,
+                    name: "Rio de Janeiro",
+                    description: "Ensolarado",
+                    icon: "01d",
+                    temp: "25",
+                }
+
+                {
+                    id: 8412,
+                    name: "Manaus",
+                    description: "Chuvas Fortes",
+                    icon: "09d",
+                    temp: "25",
+                }
+
+                {
+                    id: 8454,
+                    name: "Brasilia",
+                    description: "Ensolarado",
+                    icon: "10d",
+                    temp: "27.4",
+                }
+
+
+
+            }
+        }
+}
 </script>
